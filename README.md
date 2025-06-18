@@ -47,6 +47,7 @@ mlflow-iris-demo/
 | `train_simple.py` | - | Baseline ML classique |
 | `train_with_tracking.py` | 📈 **Tracking** | Enregistrer expériences |
 | `save_load_model.py` | 💾 **Models** | Sauvegarder/charger modèles |
+| `load_model.py` | 💾 **Models** | Charger un modèle existant |
 | `register_model.py` | 📚 **Registry** | Organiser versions |
 | `run_project.py` | 🚀 **Projects** | Standardiser exécution |
 
