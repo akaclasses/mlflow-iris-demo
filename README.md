@@ -28,6 +28,7 @@ mlflow-iris-demo/
 ├── src/
 │   ├── train_simple.py              # Training sans MLflow
 │   ├── save_load_model.py           # Models demo
+│   ├── load_model.py                # Models demo part 2
 │   ├── run_project.py               # Projects demo
 │   ├── tracking/
 │   │   └── train_with_tracking.py   # Tracking demo
@@ -41,13 +42,13 @@ mlflow-iris-demo/
 
 ## 🎓 Apprentissage Progressif
 
-| Script | Composant | Concept | Temps |
-|--------|-----------|---------|-------|
-| `train_simple.py` | - | Baseline ML classique | 2 min |
-| `train_with_tracking.py` | 📈 **Tracking** | Enregistrer expériences | 5 min |
-| `save_load_model.py` | 💾 **Models** | Sauvegarder/charger modèles | 5 min |
-| `register_model.py` | 📚 **Registry** | Organiser versions | 5 min |
-| `run_project.py` | 🚀 **Projects** | Standardiser exécution | 5 min |
+| Script | Composant | Concept |
+|--------|-----------|---------|
+| `train_simple.py` | - | Baseline ML classique |
+| `train_with_tracking.py` | 📈 **Tracking** | Enregistrer expériences |
+| `save_load_model.py` | 💾 **Models** | Sauvegarder/charger modèles |
+| `register_model.py` | 📚 **Registry** | Organiser versions |
+| `run_project.py` | 🚀 **Projects** | Standardiser exécution |
 
 ## 📊 Interface MLflow UI
 
